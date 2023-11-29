@@ -28,6 +28,7 @@ button{
     border: 0;
     border-radius: 5px;
     margin: 5px;
+    cursor: pointer;
 }
 /* parte centrale */
 main{
@@ -61,6 +62,7 @@ main{
     border-radius: 5px;
     font-size: 13px;
     padding: 3px;
+    cursor: pointer;
 }
 
 /* parte finale */
@@ -84,6 +86,7 @@ footer{
     margin: 10px;
     display: flex;
     text-align: center;
+    cursor: pointer;
 }
 
 .text{
@@ -94,11 +97,13 @@ footer{
     padding: 15px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .app{
     display: flex;
     text-align: center;
+    cursor: pointer;
 }
 
 .app div{
@@ -118,4 +123,5 @@ footer{
     align-items: center;
     font-weight: bold;
     font-size: 13px;
+    cursor: pointer;
 }
