@@ -66,7 +66,7 @@ button{
 /* parte finale */
 
 footer{
-    height: 80px;
+    height: 60px;
     width: 100%;
     background-color: #222222;
     display: flex;
@@ -106,4 +106,15 @@ footer{
 
 .share{
     color: #4bc800;
+}
+
+.termina{
+    color: #ca1414;
+    background-color: #4a4a4a;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 13px;
 }
