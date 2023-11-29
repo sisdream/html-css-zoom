@@ -6,6 +6,7 @@
 
 body{
     background-color: #000;
+    overflow: hidden;
 }
 /* parte del jumbo fix */
 header{
@@ -29,13 +30,14 @@ button{
     margin: 5px;
 }
 /* parte centrale */
-
+main{
+    overflow: scroll;
+    height: 100vh;
+}
 .container{
     margin: 100px 20px;
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
-    overflow: scroll;
 }
 
 .card{
@@ -61,8 +63,6 @@ button{
     padding: 3px;
 }
 
-
-
 /* parte finale */
 
 footer{
@@ -78,6 +78,7 @@ footer{
     color: #fff;
     font-size: 20px;
 }
+
 
 .video{
     margin: 10px;
