@@ -6,8 +6,6 @@
 
 body{
     background-color: #000;
-    font-size: 20px;
-    overflow: none;
 }
 /* parte del jumbo fix */
 header{
@@ -46,15 +44,15 @@ button{
 
 .card img{
     display: block;
-    width: 230px;
-    height: 150px;
-    margin: 5px;
+    width: 200px;
+    height: 130px;
+    margin: 3px;
 }
 
 .profile{
     position: absolute;
-    bottom: 5px;
-    left: 5px;
+    bottom: 3px;
+    left: 3px;
     z-index: 1;
     color: #fff;
     background-color: #4a4a4a;
@@ -72,9 +70,40 @@ footer{
     width: 100%;
     background-color: #222222;
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
     position: fixed;
     bottom: 0;
     z-index: 3;
+    color: #fff;
+    font-size: 20px;
+}
+
+.video{
+    margin: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.text{
+    font-size: 13px;
+}
+
+.arrow{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.app{
+    display: flex;
+    text-align: center;
+}
+
+.app div{
+    margin: 0 10px;
+}
+
+.share{
+    color: #4bc800;
 }
